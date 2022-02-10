@@ -1,0 +1,66 @@
+/* styleing body*/
+body {
+background:#90A4AE;
+}
+
+/* styling content div */
+.content {
+    width: 50%;/* half of the page width */
+    background: #ECEFF1; /* change background color */
+    margin: 10px auto;/* center div horizontally */
+    padding: 0 10px;/* add space between this div and its children */
+}
+/* styling main title*/
+.title{
+    text-align: center;/*center the text*/
+    font-size: 30px;/* change the title font size */
+    color: #9C27B0;/*give it color*/
+}
+/* styling bordered div */
+.bordered{
+    border: 1px solid #9C27B0;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.text-red{
+    color:#B71C1C;
+}
+.text-green {
+    color: green;
+}
+.text-xs {
+    font-size: 8px;
+}
+.text-sm {
+    font-size: 12px;
+}
+.text-md {
+    font-size: 14px;
+}
+.text-lg {
+    font-size: 16px;
+}
+.text-xl {
+    font-size: 20px;
+}
+.text-bold {
+    font-weight: bold;
+}
+
+
+/*styling all anchors inside text-green and text-lg */
+ .text-green .text-lg  a {
+    text-decoration: line-through;
+}
+
+/*styling all anchors inside text-green and text-sm */
+.text-green .text-sm  a {
+    text-decoration: line-through;
+}
+
+/*styling all anchors inside text-green and text-xl */
+.text-green .text-xl  a {
+    text-decoration: underline overline;
+}
